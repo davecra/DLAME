@@ -27,6 +27,7 @@ NOTE: You can uninstall with the /u switch.
 To configure the DLAME add-in you will create the following registry key:
   - Per User: HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\DelayedAddins
   - Per Machine: HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\DelayedAddins
+
 To specify the delay beyond 1 second, you will place a number in the DEFAULT string value already in the key. To be certain the Outlook User Interface is completely loaded, and all connection are established a setting of 5 is suggested. Next, you will create a string value under the DelayedAddins key for each add-in you wish to delay load. To do this:
 1)	Look in the following Registry Key: HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins.
 2)	Find the Key name (on the left side) for the add-in you wish to delay load and:
