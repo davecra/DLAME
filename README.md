@@ -18,8 +18,8 @@ To install for all users a script will be required. You can install the add-in s
       %commonprogramfiles%\microsoft shared\VSTO\10.0\VSTOInstaller.exe \i \ s <path>\DLAME.vsto 
 
 The switches are:
-•	/s – silent
-•	/i – install
+ - /s – silent
+ - /i – install
 
 NOTE: You can uninstall with the /u switch. 
 
